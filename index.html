@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<style>
+  .slides {display:none;}
+</style>
 <body>
 <h1>Welcome to Penny's Thoughts</h1>
 
@@ -48,7 +51,7 @@ function plusDivs(n) {
 
 function showDivs(n) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
+  var x = document.getElementsByClassName("slides");
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
