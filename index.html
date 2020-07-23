@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <style>
-  .slides {display:none;width:50%}
-
+  .slides {display:none;width:100%;}
+  .catpic {width:100%}
+  .button_display_left {top:50%; position:absolute;}
+  .button_display_right {top:50%; position:absolute; right: 0;}
 </style>
 <body>
 <h1>Welcome to Penny's Thoughts</h1>
@@ -10,47 +12,48 @@
 
 <!--slideshow pics-->
 
-<div class = "pic-content pic-display-container">
-  
+<div class = "pic_content_pic_display_container"style="width:50%; position:relative">
+  <!--buttons to click left or right-->
+  <button class = "button_display_left" onclick = "plusDivs(-1)">&#10094;</button>
+  <button class = "button_display_right" onclick="plusDivs(+1)">&#10095;</button>
+
   <div class = "slides">
       <a href = https://www.instagram.com/thoughtsbypenny>
-        <img src="https://instagram.fewr1-5.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/108186981_149878800016714_5164055113447556619_n.jpg?_nc_ht=instagram.fewr1-5.fna.fbcdn.net&_nc_cat=110&_nc_ohc=pblBiCFtbwUAX_wedQe&oh=f175e423edeedb305c85efc3d36ca516&oe=5F401125"> </a>
-        <div class = "pic-display-bottomleft pic-large pic-container pic-padding-16 pic-black">
+        <img class = "catpic" src="https://instagram.fewr1-5.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/108186981_149878800016714_5164055113447556619_n.jpg?_nc_ht=instagram.fewr1-5.fna.fbcdn.net&_nc_cat=110&_nc_ohc=pblBiCFtbwUAX_wedQe&oh=f175e423edeedb305c85efc3d36ca516&oe=5F401125"> </a>
+        <div class = "pic_display_bottomleft_pic_large_pic_container_pic_padding_16_pic_black">
           Serving looks left and right 😎 Sorry for the hiatus....
         </div>
   </div>
   
   <div class = "slides">
     <a href = https://www.instagram.com/thoughtsbypenny >
-      <img src="https://cdn.discordapp.com/attachments/662472863181307910/735577065402794084/image1.jpg"> </a>
-        <div class = "pic-display-bottomleft pic-large pic-container pic-padding-16 pic-black">
+      <img class = "catpic"src="https://cdn.discordapp.com/attachments/662472863181307910/735577065402794084/image1.jpg"> </a>
+        <div class = "pic_display_bottomleft_pic_large_pic_container_pic_padding_16_pic_black">
           Just another cat on a couch 🤷‍♀️ ~
         </div>
   </div>
     
   <div class = "slides">
     <a href = https://www.instagram.com/thoughtsbypenny >
-      <img src="https://cdn.discordapp.com/attachments/662472863181307910/735577064928968716/image0.jpg"> </a> 
-      <div class = "pic-display-bottomleft pic-large pic-container pic-padding-16 pic-black">
+      <img class = "catpic" src="https://cdn.discordapp.com/attachments/662472863181307910/735577064928968716/image0.jpg"> </a> 
+      <div class = "pic_display_bottomleft_pic_large_pic_container_pic_padding_16_pic_black">
         perry gay uwu
       </div>
     </div>
   
   <div class = "slides">
-    <video width="700" height="400" autoplay>
-      <a href = https://www.instagram.com/thoughtsbypenny >
-        <source src="video0.mp4" type="video/mp4"></a>
-          <div class = "pic-display-bottomleft pic-large pic-container pic-padding-16 pic-black"></div>
-    </video>
-
+    <a href = "https://www.instagram.com/thoughtsbypenny">
+      <video style = "width:100%" autoplay loop>
+        <source src="https://cdn.discordapp.com/attachments/662472863181307910/735576871055523856/video0.mp4" type="video/mp4"></a>
+      </video>
+    <div class = "pic_display_bottomleft_pic_large_pic_container_pic_padding_16_pic_black">
+      Hey, I was kinda drinking out of that.... ~ ~ ~
+    </div>
   </div>
     
-    <p><b>Note:</b> The autoplay attribute does not work on some mobile devices.</p>
     
 
-<!--buttons to click left or right-->
-<button class = "button display left" onclick = "plusDivs(-1)">&#10094;</button>
-<button class = "button display right" onclick="plusDivs(+1)">&#10095;</button>
+
 
 </div>
 <script>
